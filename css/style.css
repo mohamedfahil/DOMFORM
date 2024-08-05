@@ -1,0 +1,91 @@
+body {
+    background-color: #f0f4f8;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #333;
+}
+
+h1 {
+    margin-top: 20px;
+    color: #007bff;
+    font-size: 2.5rem;
+}
+
+#form {
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group label {
+    margin-right: 10px;
+    width: 100px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group textarea {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.food-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 15px;
+}
+
+.food1, .food2, .food3, .food4, .food5 {
+    width: 150px;
+    padding: 15px;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.food1 p, .food2 p, .food3 p, .food4 p, .food5 p {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.btn-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.table {
+    margin-top: 40px;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+thead th {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    text-align: center;
+}
